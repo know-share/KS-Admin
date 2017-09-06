@@ -1,0 +1,122 @@
+[
+	{
+		"id":"NU01",
+		"contenido": "Idea nueva 1",
+		"estado": "NOTG",
+		"fechaCreacion": "2017-08-14T21:12:19.857Z",
+		"tipo": "NU",
+		"lights": 0,
+		"comentarios": 0,
+		"operaciones": [],
+		"compartida": false,
+		"ideasProyecto": [],
+		"usuario": {
+			"id":{"timestamp":1498358259,"machineIdentifier":8252218,"processIdentifier":-23083,"counter":1}
+		},
+		"tags":[
+			{
+				"id":"idTag1"
+			},{
+				"id":"idTag2"
+			}
+		]
+	},{
+		"id":"NU02",
+		"contenido": "Idea nueva 2",
+		"estado": "NOTG",
+		"fechaCreacion": "2017-08-14T21:12:19.857Z",
+		"tipo": "NU",
+		"lights": 0,
+		"comentarios": 0,
+		"operaciones": [],
+		"compartida": false,
+		"ideasProyecto": [],
+		"usuario": {
+			"id":{"timestamp":1498358259,"machineIdentifier":8252218,"processIdentifier":-23083,"counter":2}
+		},
+		"tags":[
+			{
+				"id":"idTag3"
+			},{
+				"id":"idTag2"
+			}
+		]
+	},{
+		"id":"NU03",
+		"contenido": "Idea nueva 3",
+		"estado": "NOTG",
+		"fechaCreacion": "2017-08-14T21:12:19.857Z",
+		"tipo": "NU",
+		"lights": 2,
+		"comentarios": 0,
+		"operaciones": [
+			{
+				"username" : "MinMiguelM",
+				"tipo" : "LIGHT",
+				"fecha" : "2017-08-16T10:31:08.816Z"
+			},{
+				"username" : "Felipe-Bautista",
+				"tipo" : "LIGHT",
+				"fecha" : "2017-08-16T20:31:08.816Z"
+			},{
+				"username" : "Felipe-Bautista",
+				"tipo" : "COMENTARIO",
+				"fecha" : "2017-08-16T20:31:08.816Z"
+			}
+		],
+		"compartida": false,
+		"ideasProyecto": [],
+		"usuario": {
+			"id":{"timestamp":1498358259,"machineIdentifier":8252218,"processIdentifier":-23083,"counter":3}
+		},
+		"tags":[
+			{
+				"id":"idTag4"
+			},{
+				"id":"idTag1"
+			}
+		]
+	},{
+		"id":"PR01",
+		"contenido": "Idea proyecto 1",
+		"estado": "NOTG",
+		"fechaCreacion": "2017-08-14T21:12:19.857Z",
+		"tipo": "PR",
+		"lights": 0,
+		"comentarios": 0,
+		"operaciones": [],
+		"compartida": false,
+		"ideasProyecto": [],
+		"usuario": {
+			"id":{"timestamp":1498358259,"machineIdentifier":8252218,"processIdentifier":-23083,"counter":4}
+		},
+		"tags":[
+			{
+				"id":"idTag4"
+			},{
+				"id":"idTag2"
+			},{
+				"id":"idTag3"
+			}
+		]
+	},{
+		"id":"PR02",
+		"contenido": "Idea proyecto 2",
+		"estado": "NOTG",
+		"fechaCreacion": "2017-08-14T21:12:19.857Z",
+		"tipo": "PR",
+		"lights": 0,
+		"comentarios": 0,
+		"operaciones": [],
+		"compartida": false,
+		"ideasProyecto": [],
+		"usuario": {
+			"id":{"timestamp":1498358259,"machineIdentifier":8252218,"processIdentifier":-23083,"counter":5}
+		},
+		"tags":[
+			{
+				"id":"idTag4"
+			}
+		]
+	}
+]

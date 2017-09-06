@@ -15,6 +15,11 @@ import com.knowshare.entities.idea.Idea;
 import com.knowshare.entities.idea.Tag;
 import com.knowshare.entities.perfilusuario.Usuario;
 
+/**
+ * {@link DashboardsFacade}
+ * @author Felipe Bautista
+ *
+ */
 @Component
 public class DashboardsBean implements DashboardsFacade {
 
@@ -27,29 +32,29 @@ public class DashboardsBean implements DashboardsFacade {
 	@Override
 	public List<Integer> generoCarrera(String carrera) {
 		List<Usuario> usuarios = usuarioRepository.findAll();
-		List<Integer> Final = new ArrayList<Integer>();
-		Final.add(0);// M
-		Final.add(0);//F
+		List<Integer> finalRet = new ArrayList<>();
+		finalRet.add(0);// M
+		finalRet.add(0);//F
 		for(Usuario us: usuarios) {
 			if(us.getCarreras()!=null) {
 				for(Carrera ca: us.getCarreras()) {
 					if(ca.getNombre().equalsIgnoreCase(carrera)) {
 						if(us.getGenero().equalsIgnoreCase("Masculino")) {
-							Final.set(0, Final.get(0)+1);
+							finalRet.set(0, finalRet.get(0)+1);
 						}	
 						else if(us.getGenero().equalsIgnoreCase("Femenino"))
-							Final.set(1, Final.get(1)+1);
+							finalRet.set(1, finalRet.get(1)+1);
 					}
 				}
 			}	
 		}
 		
-		return Final;
+		return finalRet;
 	}
 
 	@Override
 	public Map<String, Integer> usoTags() {
-		Map<String,Integer> map = new HashMap<String,Integer>();
+		Map<String,Integer> map = new HashMap<>();
 		List<Idea> ideas = ideaRepository.findAll();
 		for(Idea i:ideas){
 			if(!i.getTags().isEmpty()){
@@ -66,7 +71,4 @@ public class DashboardsBean implements DashboardsFacade {
 		}
 		return map;
 	}
-
-	
-
 }
