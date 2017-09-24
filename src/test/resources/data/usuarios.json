@@ -1,0 +1,269 @@
+[
+	{
+		"id":{"timestamp":1498358259,"machineIdentifier":8252218,"processIdentifier":-23083,"counter":1},
+		"username": "MinMiguelM",
+		"password": "8e21d61d91c6c6e1f3137b783a1b524d",
+		"nombre": "Miguel",
+		"apellido": "Montañez",
+		"correo": "miguel@mail.com",
+		"tipo": "ESTUDIANTE",
+		"genero": "Masculino",
+		"semestre": 10,
+		"personasAvaladas": [],
+		"enfasis": [
+			{
+				"nombre": "Enfasis sistemas 1",
+				"carrera": "Ingeniería de sistemas"
+			},
+			{
+				"nombre": "Enfasis sistemas 2",
+				"carrera": "Ingeniería de sistemas"
+			}
+		],
+		"areasConocimiento": [
+			{
+				"nombre": "AC sistemas 1",
+				"porcentaje": 0,
+				"carrera": "Ingeniería de sistemas"
+			},
+			{
+				"nombre": "AC sistemas 2",
+				"porcentaje": 0,
+				"carrera": "Ingeniería de sistemas"
+			}
+		],
+		"amigos": [],
+		"seguidores": [],
+		"siguiendo": [
+			{
+				"username": "Felipe-Bautista",
+				"nombre": "Felipe Bautista"
+			}
+		],
+		"solicitudesAmistad": [],
+		"preferencias": {
+			"seminario": false,
+			"temaTG": true
+		},
+		"carreras": [
+			{
+				"id": "idCarreraSistemas"
+			}
+		],
+		"insignias": []
+	},{
+		"id":{"timestamp":1498358259,"machineIdentifier":8252218,"processIdentifier":-23083,"counter":2},
+		"username": "pablo.gaitan",
+		"password": "8e21d61d91c6c6e1f3137b783a1b524d",
+		"nombre": "Pablo",
+		"apellido": "Gaitán",
+		"correo": "pablo@mail.com",
+		"tipo": "ESTUDIANTE",
+		"genero": "Masculino",
+		"semestre": 10,
+		"personasAvaladas": [],
+		"enfasis": [
+			{
+				"nombre": "Enfasis sistemas 1",
+				"carrera": "Ingeniería de sistemas"
+			},
+			{
+				"nombre": "Enfasis sistemas 4",
+				"carrera": "Ingeniería de sistemas"
+			}
+		],
+		"areasConocimiento": [
+			{
+				"nombre": "AC sistemas 1",
+				"porcentaje": 0,
+				"carrera": "Ingeniería de sistemas"
+			}
+		],
+		"amigos": [],
+		"seguidores": [],
+		"siguiendo": [],
+		"solicitudesAmistad": [
+			"Felipe-Bautista"
+		],
+		"preferencias": {
+			"seminario": false,
+			"temaTG": true
+		},
+		"carreras": [
+			{
+				"id": "idCarreraSistemas"
+			}
+		],
+		"insignias": []
+	},{
+		"id":{"timestamp":1498358259,"machineIdentifier":8252218,"processIdentifier":-23083,"counter":3},
+		"username": "Felipe-Bautista",
+		"password": "8e21d61d91c6c6e1f3137b783a1b524d",
+		"nombre": "Felipe",
+		"apellido": "Bautista",
+		"correo": "felipe@mail.com",
+		"genero": "Masculino",
+		"tipo": "ESTUDIANTE",
+		"semestre": 9,
+		"personasAvaladas": [],
+		"enfasis": [
+			{
+				"nombre": "Enfasis civil 1",
+				"carrera": "Ingeniería civil"
+			},
+			null
+		],
+		"areasConocimiento": [
+			{
+				"nombre": "AC civil 1",
+				"porcentaje": 0,
+				"carrera": "Ingeniería civil"
+			},{
+				"nombre": "AC civil 2",
+				"porcentaje": 0,
+				"carrera": "Ingeniería civil"
+			},{
+				"nombre": "AC civil 3",
+				"porcentaje": 0,
+				"carrera": "Ingeniería civil"
+			}
+		],
+		"amigos": [],
+		"seguidores": [
+			{
+				"username": "MinMiguelM",
+				"nombre": "Miguel Montañez"
+			}
+		],
+		"siguiendo": [],
+		"solicitudesAmistad": [],
+		"preferencias": {
+			"seminario": false,
+			"temaTG": true
+		},
+		"carreras": [
+			{
+				"id": "idCarreraCivil"
+			}
+		]
+	},{
+		"id":{"timestamp":1498358259,"machineIdentifier":8252218,"processIdentifier":-23083,"counter":4},
+		"username": "Luisa-Bautista",
+		"password": "8e21d61d91c6c6e1f3137b783a1b524d",
+		"nombre": "Luisa",
+		"apellido": "Bautista",
+		"correo": "luisa@mail.com",
+		"genero": "Femenino",
+		"tipo": "PROFESOR",
+		"personasAvaladas": [],
+		"enfasis": [
+			{
+				"nombre": "Enfasis civil 1",
+				"carrera": "Ingeniería civil"
+			},
+			null
+		],
+		"areasConocimiento": [
+			{
+				"nombre": "AC civil 1",
+				"porcentaje": 0,
+				"carrera": "Ingeniería civil"
+			},{
+				"nombre": "AC civil 2",
+				"porcentaje": 0,
+				"carrera": "Ingeniería civil"
+			},{
+				"nombre": "AC civil 3",
+				"porcentaje": 0,
+				"carrera": "Ingeniería civil"
+			}
+		],
+		"amigos": [],
+		"seguidores": [],
+		"siguiendo": [],
+		"solicitudesAmistad": [],
+		"carreras": [
+			{
+				"id": "idCarreraCivil"
+			}
+		]
+	},{
+		"id":{"timestamp":1498358259,"machineIdentifier":8252218,"processIdentifier":-23083,"counter":5},
+		"username": "Laura-Rodri",
+		"password": "8e21d61d91c6c6e1f3137b783a1b524d",
+		"nombre": "Laura",
+		"apellido": "Rodriquez",
+		"correo": "laura@mail.com",
+		"genero": "Femenino",
+		"tipo": "EGRESADO",
+		"personasAvaladas": [],
+		"enfasis": [
+			{
+				"nombre": "Enfasis civil 1",
+				"carrera": "Ingeniería civil"
+			},
+			null
+		],
+		"areasConocimiento": [
+			{
+				"nombre": "AC civil 1",
+				"porcentaje": 0,
+				"carrera": "Ingeniería civil"
+			},{
+				"nombre": "AC civil 2",
+				"porcentaje": 0,
+				"carrera": "Ingeniería civil"
+			},{
+				"nombre": "AC civil 3",
+				"porcentaje": 0,
+				"carrera": "Ingeniería civil"
+			}
+		],
+		"amigos": [],
+		"seguidores": [],
+		"siguiendo": [],
+		"solicitudesAmistad": [],
+		"carreras": [
+			{
+				"id": "idCarreraCivil"
+			}
+		]
+	},{
+		"id":{"timestamp":1498358259,"machineIdentifier":8252218,"processIdentifier":-23083,"counter":6},
+		"username": "Natalia",
+		"password": "8e21d61d91c6c6e1f3137b783a1b524d",
+		"nombre": "Natalia",
+		"apellido": "Herrera",
+		"correo": "nata@mail.com",
+		"tipo": "PROFESOR",
+		"genero": "Femenino",
+		"personasAvaladas": [],
+		"enfasis": [
+			{
+				"nombre": "Enfasis sistemas 1",
+				"carrera": "Ingeniería de sistemas"
+			},
+			{
+				"nombre": "Enfasis sistemas 2",
+				"carrera": "Ingeniería de sistemas"
+			}
+		],
+		"areasConocimiento": [
+			{
+				"nombre": "AC sistemas 1",
+				"porcentaje": 0,
+				"carrera": "Ingeniería de sistemas"
+			}
+		],
+		"amigos": [],
+		"seguidores": [],
+		"siguiendo": [],
+		"solicitudesAmistad": [],
+		"carreras": [
+			{
+				"id": "idCarreraSistemas"
+			}
+		],
+		"insignias": []
+	}
+]
